@@ -42,10 +42,8 @@
             // Set the height back to 0
             setTimeout($A.getCallback(function () {
                 component.set("v.isOpenState", 'closing');
-                setTimeout($A.getCallback(function () {
-                    accordionElement.style.height = '0';
-                }), 1);
-            }), 10);
+                accordionElement.style.height = '0';
+            }), 1);
 
             // When the transition is complete, hide it
             setTimeout($A.getCallback(function () {

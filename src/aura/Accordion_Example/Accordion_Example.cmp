@@ -22,6 +22,9 @@
             </div>
             <div class="slds-accordion__content" aura:id="accordionContent">
                 {!v.body}
+                <p>This is the test layout.</p>
+                <p>This is the test layout.</p>
+                <p>This is the test layout.</p>
             </div>
         </section>
     </div>
